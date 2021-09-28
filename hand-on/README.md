@@ -22,3 +22,8 @@ The solution must include the following
 -	Kubernetes Manifests
 -	Kubernetes Ingress Configuration
 Please update README for steps how to test, build, deploy and run the application using Kubernetes
+
+
+
+
+(this message check on the server)
