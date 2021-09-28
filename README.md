@@ -23,7 +23,7 @@
    2. After I have writed the code to finish, I will do it's on below. Because I'm going to commit that's like save file.   
    ```git add . or git add specific-file.txt```
 
-<<<<<<< HEAD
+
    4. save file which is edited with message  
     ``` git commit -m "message"```
    5. if new branch name we will set-upstream and push. the command's on below:   
@@ -133,9 +133,3 @@ prometeuse**
 6.	**How do you measure service quality to give the best experience to your customer? (SLO, SLA)**
 
 ---
-=======
-   3.  
-
-  How do you revert a commit that has already been pushed and made public?
- > **ANSWER:**
- 
