@@ -1,8 +1,8 @@
 # KUBEOPS-PART-TIME
 ## QUSTIONS
-- **NORMAL**
-- **INTERMEDIATE**
-- **PROFESSIONAL**
+- **[NORMAL](https://github.com/nitikornchumnankul/kubeops-part-time/tree/dev#normal)**
+- **[INTERMEDIATE](https://github.com/nitikornchumnankul/kubeops-part-time/tree/dev#intermediate)**
+- **[PROFESSIONAL](https://github.com/nitikornchumnankul/kubeops-part-time/tree/dev#professional)**
 ---
 ### NORMAL
 
@@ -35,6 +35,7 @@
  2. **How do you revert a commit that has already been pushed and made public?**
 
  > **ANSWER:**
+ 
  
 ##
 3. **How do you normally solve conflicts in a feature branch before merge?**
