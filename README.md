@@ -5,7 +5,6 @@
 - **[INTERMEDIATE](https://github.com/nitikornchumnankul/kubeops-part-time/tree/dev#intermediate)**
 - **[PROFESSIONAL](https://github.com/nitikornchumnankul/kubeops-part-time/tree/dev#professional)**
 ---
-### NORMAL
 
 ## NORMAL
 
