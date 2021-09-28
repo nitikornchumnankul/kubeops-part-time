@@ -52,37 +52,37 @@
     `git checkout main | git checkout development` and `git merge feature --no-ff`
 ##
 4.	**“200 OK” what does it mean and show use case this HTTP Status?**
- > **ANSWER:**
+ > **ANSWER:** The request has succeeded. The meaning of the success depends on the HTTP method: GET, POST, PUT, DELETE, PATCH.
 ##
 5.	**“201 Created” what does it mean and show use case this HTTP Status?**
- > **ANSWER:**
+ > **ANSWER:** The request has succeeded and a new resource has been created as a result. This is typically the response sent after POST requests, or some PUT requests.
 ##
 6. **“301 Moved Permanently” what does it mean and show use case this HTTP Status?6.	“301 Moved Permanently” what does it mean and show use case this HTTP Status?**
- > **ANSWER:**
+ > **ANSWER:** The request has more than one possible response. The user-agent or user should choose one of them.
 ##
 7.	**“400 Bad Request” what does it mean and how to identify the problem?**
- > **ANSWER:**
+ > **ANSWER:** The server could not understand the request due to invalid syntax.
 ##
 8. **“401 Unauthorized” what does it mean and how to identify the problem?**
-> **ANSWER:**
+> **ANSWER:** Although the HTTP standard specifies "unauthorized", semantically this response means "unauthenticated". That is, the client must authenticate itself to get the requested response.
 ##
 9.	**“403 Forbidden” what does it mean and how to identify the problem?**
-> **ANSWER:**
+> **ANSWER:** The client does not have access rights to the content; that is, it is unauthorized, so the server is refusing to give the requested resource. Unlike 401, the client's identity is known to the server.
 ##
 10.	**“404 Not Found” what does it mean and how to identify the problem?**
-> **ANSWER:**
+> **ANSWER:** The server can not find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 to hide the existence of a resource from an unauthorized client. This response code is probably the most famous one due to its frequent occurrence on the web.
 ##
 11.	**“500 Internal Server Error” what does it mean and how to identify the problem?**
-> **ANSWER:**
+> **ANSWER:** The server has encountered a situation it doesn't know how to handle.
 ##
 12.	**“502 Bad Gateway” what does it mean and how to identify the problem?**
-> **ANSWER:**
+> **ANSWER:** This error response means that the server, while working as a gateway to get a response needed to handle the request, got an invalid response.
 ##
 13.	**“503 Service Unavailable” what does it mean and how to identify the problem?**
-> **ANSWER:**
+> **ANSWER:** The server is not ready to handle the request. Common causes are a server that is down for maintenance or that is overloaded. Note that together with this response, a user-friendly page explaining the problem should be sent. This response should be used for temporary conditions and the Retry-After: HTTP header should, if possible, contain the estimated time before the recovery of the service. The webmaster must also take care about the caching-related headers that are sent along with this response, as these temporary condition responses should usually not be cached.
 ##
 14.	**“504 Gateway Timeout” what does it mean and how to identify the problem?14.	“504 Gateway Timeout” what does it mean and how to identify the problem?**
-> **ANSWER:**
+> **ANSWER:** This error response is given when the server is acting as a gateway and cannot get a response in time.
 ##
 15.	**What are Linux network tools do you use for troubleshooting network problems as well as usage scenarios for each tool?**
 > **ANSWER:**
