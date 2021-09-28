@@ -5,7 +5,6 @@
 - **[INTERMEDIATE](https://github.com/nitikornchumnankul/kubeops-part-time/tree/dev#intermediate)**
 - **[PROFESSIONAL](https://github.com/nitikornchumnankul/kubeops-part-time/tree/dev#professional)**
 ---
-### NORMAL
 
 ## NORMAL
 
@@ -131,10 +130,6 @@ prometeuse**
 2.	**How do you secure the following?**
   	- application
   	- infrastructure
-    
-    
-    
-    
   	- data
 ##
 3.	**Base on your experience, how do you reduce your service downtime as much as possible during**
