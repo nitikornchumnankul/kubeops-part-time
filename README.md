@@ -18,7 +18,9 @@
     
    **Afterward** I describe about the git-flow which I have used it. followed by:
    1. Create new branch  
-   ```git checkout -b new-branch-name```
+   ```
+   git checkout -b new-branch-name
+   ```
    2. After I have writed the code to finish, I will do it's on below. Because I'm going to commit that's like save file.   
    ```git add . or git add specific-file.txt```
 
