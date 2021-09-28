@@ -117,12 +117,12 @@
 3.	**What is the difference between overlay, bridge, host network in Docker? When to use each of them?**
 > **ANSWER:** type network of docker that is depend on each case.
 > 1. overlay network: That is used when docker network call across server or vm. In this case we may use the docker swarm to control vm or not use depend on the usecase.
-> 2. bridge network:
+> 2. bridge network: private internal network created by docker on the host all containers and we will get internal ip by default. The bridge network is used when container A communicate container B on private network.
 > 3. host network: The docker network will use the ip same vm or server which it leaves on.
 ##
 4.	**How does the Kubernetes service talk to each other in the same cluster?
 ClusterIP-> kube proxy**
-> **ANSWER:**  Type ClusterIP of Kubernete service 
+> **ANSWER:**  Type ClusterIP of Kubernete service,The ClusterIP call directly to kube-proxy.
 ##
 5.	**What’s different between L2, L4, and L7 Load balancers? When to use it?**
 > **ANSWER:**
