@@ -7,7 +7,9 @@
 ---
 ### NORMAL
 
- 1. **Describe Git branching strategies ( Git-flow, single branch, feature branch, etc.) which you have used and what purpose does it servers.**
+## NORMAL
+
+ 1. Describe Git branching strategies ( Git-flow, single branch, feature branch, etc.) which you have used and what purpose does it servers.
   > **ANSWER:**
    In this question, I have read from [Luis Cuellar](https://www.agileana.com/blog/git-best-practices-for-agile-projects-and-distributed-teams/) who is a blogger on the web page which name is Agileana. I will conclude it on below:
 
@@ -25,15 +27,16 @@
 > **Release branches:**   
 > **Hotfix branches:**  
     
+
 **Afterward** I describe about the git-flow which I have used it. followed by:
    1. Git Clone Repository  
    ```git clone https://github.com/username/repository.git```
-   1. Create new branch  
+   2. Create new branch  
    ```git checkout -b new-branch-name```
-   1. After I have writed the code to finish, I will do it's on below. Because I'm going to commit that's like save file.   
+   3. After I have writed the code to finish, I will do it's on below. Because I'm going to commit that's like save file.   
    ```git add . or git add specific-file.txt```
 
-   1. save file which is edited with message  
+   4. save file which is edited with message  
     ``` git commit -m "message"```
    2. if new branch name we will set-upstream and push. the command's on below:   
    ```git push --set-upstream origin dev```   
@@ -128,6 +131,10 @@ prometeuse**
 2.	**How do you secure the following?**
   	- application
   	- infrastructure
+    
+    
+    
+    
   	- data
 ##
 3.	**Base on your experience, how do you reduce your service downtime as much as possible during**
