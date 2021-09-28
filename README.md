@@ -28,18 +28,28 @@
    5. if new branch name we will set-upstream and push. the command's on below:   
    ```git push --set-upstream origin dev```   
    6. The Main repository ask to pull request.
-   7. Compare and Check Source Code.
-   8. Comment The Source Code.
-   9. Merge pull request to the main branch in this case my own repository. 
+   7. Compare and Check Source Code, I saw on the github page which page name is pull request.
+   8. Comment The Source Code, . 
+   9.  Merge pull request to the main branch in this case my own repository. 
 ##
  2. **How do you revert a commit that has already been pushed and made public?**
 
- > **ANSWER:**
- 
- 
+ > **ANSWER:** On this my case I have revert on the public repository. My provider store the source code is Github.
+1. I'm going to the public repository, It is changed from anyone. 
+2. I'm going to the pull request, The branch is changed. and I'm going to click the revert button on the pull requst of the branch, I will revert it. 
+3. The Github, It will generate the new branch which name is revert-2-dev (revert-2-$(branch name)).
+4. On my local computer, I will pull the new branch which is reverted. Its name is revert-2-dev.   
+   `git branch --set-upstream-to=origin/revert-2-dev revert-2-dev` And `git pull`  
+ **On this Case:** we will see conflicts on the revert-2-dev branch.
 ##
 3. **How do you normally solve conflicts in a feature branch before merge?**
- > **ANSWER:**
+ > **ANSWER: On this case I am usually solve manual becuase I will make sure whether It's not show any problem before I commit again. My solution on below:**
+1. Check the source code which is changed.   
+   `git diff`
+2. Delete and Edit the line of source code, It was conflicts.
+3. After I finish, I will write command `git add .` and `git commit -m "message"`
+4. Checkout to development branch or main branch                  
+    `git checkout main | git checkout development` and `git merge feature --no-ff`
 ##
 4.	**“200 OK” what does it mean and show use case this HTTP Status?**
  > **ANSWER:**
