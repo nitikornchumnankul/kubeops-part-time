@@ -86,7 +86,7 @@
 > **ANSWER:** This error response is given when the server is acting as a gateway and cannot get a response in time.
 ##
 15.	**What are Linux network tools do you use for troubleshooting network problems as well as usage scenarios for each tool?**
-> **ANSWER:**
+> **ANSWER:** I'm usually use ss command and nmap tool
 
 ---
 ### INTERMEDIATE
