@@ -22,14 +22,16 @@
    2. After I have writed the code to finish, I will do it's on below. Because I'm going to commit that's like save file.   
    ```git add . or git add specific-file.txt```
 
-   3. save file which is edited with message  
+
+   1. save file which is edited with message  
+
     ``` git commit -m "message"```
-   4. if new branch name we will set-upstream and push. the command's on below:   
+   2. if new branch name we will set-upstream and push. the command's on below:   
    ```git push --set-upstream origin dev```   
-   5. The Main repository ask to pull request.
-   6. Compare and Check Source Code, I saw on the github page which page name is pull request.
-   7. Comment The Source Code, . 
-   8.  Merge pull request to the main branch in this case my own repository. 
+   1. The Main repository ask to pull request.
+   2. Compare and Check Source Code, I saw on the github page which page name is pull request.
+   3. Comment The Source Code, . 
+   4.  Merge pull request to the main branch in this case my own repository. 
 ##
  2. **How do you revert a commit that has already been pushed and made public?**
 
@@ -129,12 +131,3 @@ prometeuse**
 5.	**How do you design your Kubernetes cluster? what DNS, CNI, ingression is being used? Why?**
 ##
 6.	**How do you measure service quality to give the best experience to your customer? (SLO, SLA)**
-
----
-=======
-   3.  
-
-  How do you revert a commit that has already been pushed and made public?
- > **ANSWER:**
- 
-
