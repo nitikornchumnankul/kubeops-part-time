@@ -1,3 +1,4 @@
+![](https://app.travis-ci.com/nitikornchumnankul/kubeops-part-time.svg?branch=mainhttps://app.travis-ci.com/nitikornchumnankul/kubeops-part-time.svg?branch=main)
 # KUBEOPS-PART-TIME
 ## QUSTIONS
 - **[NORMAL](https://github.com/nitikornchumnankul/kubeops-part-time/tree/dev#normal)**
@@ -11,24 +12,32 @@
   > **ANSWER:**
    In this question, I have read from [Luis Cuellar](https://www.agileana.com/blog/git-best-practices-for-agile-projects-and-distributed-teams/) who is a blogger on the web page which name is Agileana. I will conclude it on below:
 
-    1.1
-    1.2
-    1.3 Production
-    1.4
+   1.1 Git main branches   
+>  **Master:** This branch always reflects a production ready state, and it’s the branch that it’s deployed to the production server.   
+>  **Develop:** This branch is used for development and integration of changes.
+  
+   1.2 Git supporting branches  
+> **Feature branches:**  
+> **Release branches:**  
+> **Hotfix branches:**  
+  
+   1.3 Git branching and merging  
+> **Feature branches:**   
+> **Release branches:**   
+> **Hotfix branches:**  
     
-   **Afterward** I describe about the git-flow which I have used it. followed by:
-   1. Create new branch  
-   ```
-   git checkout -b new-branch-name
-   ```
-   2. After I have writed the code to finish, I will do it's on below. Because I'm going to commit that's like save file.   
+**Afterward** I describe about the git-flow which I have used it. followed by:
+   1. Git Clone Repository  
+   ```git clone https://github.com/username/repository.git```
+   2. Create new branch  
+   ```git checkout -b new-branch-name```
+   3. After I have writed the code to finish, I will do it's on below. Because I'm going to commit that's like save file.   
    ```git add . or git add specific-file.txt```
 
-
-   1. save file which is edited with message  
+   4. save file which is edited with message  
 
     ``` git commit -m "message"```
-   2. if new branch name we will set-upstream and push. the command's on below:   
+   5. if new branch name we will set-upstream and push. the command's on below:   
    ```git push --set-upstream origin dev```   
    1. The Main repository ask to pull request.
    2. Compare and Check Source Code, I saw on the github page which page name is pull request.
@@ -55,7 +64,7 @@
     `git checkout main | git checkout development` and `git merge feature --no-ff`
 ##
 4.	**“200 OK” what does it mean and show use case this HTTP Status?**
- > **ANSWER:** The request has succeeded. The meaning of the success depends on the HTTP method: GET, POST, PUT, DELETE, PATCH.
+ > **ANSWER:** The request has succeeded. The meaning of the success depends on the HTTP method: GET, POST, PUT, DELETE, OPTION, TRACE.
 ##
 5.	**“201 Created” what does it mean and show use case this HTTP Status?**
  > **ANSWER:** The request has succeeded and a new resource has been created as a result. This is typically the response sent after POST requests, or some PUT requests.
@@ -97,14 +106,17 @@
 > **ANSWER:**
 ##
 2.	**How do you keep the docker image smallest as possible?**
-> **ANSWER:**
+> **ANSWER:** It's possible. The docker company have the solution to keep image smallest that call multi-stage builds.
 ##
 3.	**What is the difference between overlay, bridge, host network in Docker? When to use each of them?**
-> **ANSWER:**
+> **ANSWER:** type network of docker that is depend on each case.
+> 1. overlay network: That is used when docker sevevice call across server or vm. In this case we may use the docker swarm to control vm or not use depend on the usecase.
+> 2. bridge network:
+> 3. host network:
 ##
 4.	**How does the Kubernetes service talk to each other in the same cluster?
 ClusterIP-> kube proxy**
-> **ANSWER:**
+> **ANSWER:**  Type ClusterIP of Kubernete service 
 ##
 5.	**What’s different between L2, L4, and L7 Load balancers? When to use it?**
 > **ANSWER:**
