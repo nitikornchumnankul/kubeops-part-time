@@ -17,25 +17,31 @@
 >  **Develop:** This branch is used for development and integration of changes.
   
    1.2 Git supporting branches  
-> **Feature branches:**  
-> **Release branches:**  
-> **Hotfix branches:**  
-  
+> **Feature branches:**  These branches are created from the develop branch, and are utilized to develop new features.  
+> **Release branches:**  These are created from the develop branch when the Agile team agrees that the code is stable and is ready to be released to production.  
+> **Hotfix branches:**  These are created from the master branch, and are used when changes on develop are not release-ready and a fix to production is required that cannot wait until the upcoming release is stable
+
    1.3 Git branching and merging  
-> **Feature branches:**   
-> **Release branches:**   
+> **Feature branches:**  
+ - Branch off from develop
+ - Merge back into develop.
+> **Release branches:**  
+ - Branch off from develop.
+ - Merge back into develop AND master. 
 > **Hotfix branches:**  
+ - Branch off from master.
+ - Merge back into develop AND master.
     
 
 **Afterward** I describe about the git-flow which I have used it. followed by:
    1. Git Clone Repository  
    ```git clone https://github.com/username/repository.git```
-   2. Create new branch  
+   1. Create new branch  
    ```git checkout -b new-branch-name```
-   3. After I have writed the code to finish, I will do it's on below. Because I'm going to commit that's like save file.   
+   1. After I have writed the code to finish, I will do it's on below. Because I'm going to commit that's like save file.   
    ```git add . or git add specific-file.txt```
 
-   4. save file which is edited with message  
+   1. save file which is edited with message  
     ``` git commit -m "message"```
    2. if new branch name we will set-upstream and push. the command's on below:   
    ```git push --set-upstream origin dev```   
@@ -110,9 +116,9 @@
 ##
 3.	**What is the difference between overlay, bridge, host network in Docker? When to use each of them?**
 > **ANSWER:** type network of docker that is depend on each case.
-> 1. overlay network: That is used when docker sevevice call across server or vm. In this case we may use the docker swarm to control vm or not use depend on the usecase.
+> 1. overlay network: That is used when docker network call across server or vm. In this case we may use the docker swarm to control vm or not use depend on the usecase.
 > 2. bridge network:
-> 3. host network:
+> 3. host network: The docker network will use the ip same vm or server which it leaves on.
 ##
 4.	**How does the Kubernetes service talk to each other in the same cluster?
 ClusterIP-> kube proxy**
