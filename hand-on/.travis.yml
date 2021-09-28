@@ -1,0 +1,20 @@
+language: node_js
+services:
+  - docker
+sudo: required
+node_js:
+  - "node"
+
+before_install:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+install:
+  - npm install -D jest
+  - npm install
+branches:
+  only:
+    - dev
+before_script:  
+  - git config --local user.name "$GIT_USERNAME"
+  - git config --local user.email "$GIT_EMAIL"
+  - git log --format=%h -1
+  - export TRAVIS_TAG=$TRAVIS_TAG-$(git log --format=%h -1)
