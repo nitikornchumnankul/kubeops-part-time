@@ -123,7 +123,7 @@ ClusterIP-> kube proxy**
 > **ANSWER:**  Type ClusterIP of Kubernete service,The ClusterIP call directly to kube-proxy.
 ##
 5.	**What’s different between L2, L4, and L7 Load balancers? When to use it?**
-> **ANSWER:**
+> **ANSWER:** [L4/L7](https://dev.to/aurelievache/understanding-network-things-part-1-l4-l7-layers-j47)
 
 ---
 ## PROFESSIONAL
